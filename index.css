@@ -1,0 +1,67 @@
+html,body{
+	height:100%;
+}
+*{
+	font-family: 'Old Standard TT', serif;
+}
+#about{
+	background-image: url("./img/laptop.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+}
+#about h1{
+	margin-top:200px;
+}
+#portfolio{
+	background-color: #CCCCCC;
+}
+
+#about,#portfolio,#contact{
+	min-height: 100%;
+	max-height: auto;
+}
+#about h1{
+	font-size: 96px;
+}
+#contact{
+	background-color: #e6e6e6;
+}
+#contact h1{
+	font-size: 80px;
+}
+#portfolio h1{
+	font-size: 80px;
+	margin-top: 50px;
+}
+#about h2{
+	font-size: 35px;
+}
+.footer{
+	background-color:#545151;
+	color:white;
+}
+@media only screen and (max-width:577px){
+	.resumeSmall{
+		margin-bottom: 3px;
+	}
+}
+@media only screen and (max-width:469px){
+	#about h1{
+	margin-top:100px;
+	font-size: 81px;
+	}
+}
+@media only screen and (max-width:401px){
+	.githubSmall{
+		margin-bottom: 3px;
+	}
+	#about h1{
+		font-size: 60px;
+		margin-top: 200px;
+	}
+}
+
+
+
+
