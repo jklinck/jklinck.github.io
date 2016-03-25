@@ -138,15 +138,15 @@
     method="POST">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" placeholder="name" name="name">
+            <input type="text" class="form-control" placeholder="name" name="name" required>
           </div>
           <div class="form-group">
             <label>Email</label>
-            <input type="email" class="form-control" name="_replyto" placeholder="email">
+            <input type="email" class="form-control" name="_replyto" placeholder="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea rows="3" placeholder="message" class="form-control" name="message"></textarea>
+            <textarea rows="3" placeholder="message" class="form-control" name="message" required></textarea>
           </div>
             <input type="text" name="_gotcha" style="display:none" />
             <input class="btn btn-primary" type="submit" value="Send">
