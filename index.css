@@ -5,7 +5,7 @@ html,body{
 	font-family: 'Old Standard TT', serif;
 }
 #about{
-	background-image: url("./img/laptop.jpg");
+	background-image: url("./img/laptop-min.jpg");
 	background-size: cover;
 	background-position: center;
 	text-align:center;
