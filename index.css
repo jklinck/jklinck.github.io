@@ -42,7 +42,7 @@ html,body{
 	color:white;
 }
 .sendBtn{
-	margin-bottom: 20px;
+	margin-bottom: 20px !important;
 }
 @media only screen and (max-width:577px){
 	.resumeSmall{
