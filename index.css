@@ -4,24 +4,24 @@ html,body{
 *{
 	font-family: 'Old Standard TT', serif;
 }
-#about{
+#main{
 	background-image: url("https://sites.google.com/site/jklinckportfolio/_/rsrc/1460183933445/home/laptop-min.jpg");
 	background-size: cover;
 	background-position: center;
 	text-align:center;
 }
-#about h1{
+#main h1{
 	margin-top:16%;
 }
 #portfolio{
 	background-color: #CCCCCC;
 }
 
-#about,#portfolio,#contact{
+#main,#about,#portfolio,#contact{
 	min-height: 100%;
 	max-height: auto;
 }
-#about h1{
+#main h1{
 	font-size: 96px;
 }
 #contact{
@@ -35,7 +35,7 @@ html,body{
 	font-size: 80px;
 	margin-top: 50px;
 }
-#about h2{
+#main h2{
 	font-size: 35px;
 }
 .footer{
@@ -51,7 +51,7 @@ html,body{
 	}
 }
 @media only screen and (max-width:469px){
-	#about h1{
+	#main h1{
 	margin-top:100px;
 	font-size: 81px;
 	}
@@ -60,11 +60,12 @@ html,body{
 	.githubSmall{
 		margin-bottom: 3px;
 	}
-	#about h1{
+	#main h1{
 		font-size: 60px;
 		margin-top: 200px;
 	}
 }
+
 
 
 
