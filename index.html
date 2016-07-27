@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
   <!-- Navigation bar -->
   <nav class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
@@ -30,7 +29,6 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <!-- <li ><a href="#">Home</a></li> -->
           <li><a href="#main">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -63,31 +61,41 @@
       </div>
       <div class="row"> <!-- first row -->
         <!-- Sea Disc Golf -->
-        <div class="col-md-6">
-          <a href="http://www.seadiscgolf.com" class="thumbnail" target="seaDiscGolf">
-            <img src="./img/discGolf-min.png" alt="...">
-          </a>
-          <div class="caption">
-            <h3>Seattle Disc Golf</h3>
-            <p>Seattle area disc golf website built with Twitter Boostrap and Ruby on Rails.</p>
+        <div class="col-sm-6">
+          <div class="col-sm-1">
           </div>
-        </div>
+          <div class="col-sm-11">
+            <a href="http://www.seadiscgolf.com" class="thumbnail" target="seaDiscGolf">
+              <img src="./img/discGolf-min.png" alt="...">
+            </a>
+            <div class="caption">
+              <h3>Seattle Disc Golf</h3>
+              <p>Seattle area disc golf website built with Twitter Boostrap and Ruby on Rails.</p>
+            </div>
+          </div>
+        </div> <!-- ends col-md-6 -->
         <!-- end Sea Disc Golf -->
         <!-- jQuery calculator -->
-        <div class="col-md-6">
-          <a href="https://github.com/jklinck/jQueryCalc" class="thumbnail" target="jQueryCalc">
-            <img src="./img/jQueryCalc.png" alt="...">
-          </a>
-          <div class="caption">
-            <h3>jQuery Calculator</h3>
-            <p>Calculator developed with jQuery, Twitter Bootstrap and Javascript Expression Calculator.</p>
+        <div class="col-sm-6">
+          <div class="col-sm-11">
+            <a href="https://github.com/jklinck/jQueryCalc" class="thumbnail" target="jQueryCalc">
+              <img src="./img/jQueryCalc.png" alt="...">
+            </a>
+            <div class="caption">
+              <h3>jQuery Calculator</h3>
+              <p>Calculator developed with jQuery, Twitter Bootstrap and Javascript Expression Calculator.</p>
+            </div>
           </div>
-        </div>
+          <div class="col-sm-1">
+          </div>
+        </div>  <!-- ends col-md-6 -->
         <!-- jQueryCalc end  -->
       </div>   <!-- end first row -->
-        <div class="row">  <!-- begin second row -->
-          <!-- Weather app start -->
-        <div class="col-md-6">
+      <div class="row">  <!-- begin second row -->
+        <div class="col-sm-6"> <!-- Weather app start -->
+          <div class="col-sm-1">
+          </div>
+          <div class="col-sm-11">
             <a href="https://github.com/jklinck/weatherAPP" class="rsz thumbnail" target="weatherApp">
               <img src="./img/weatherApp.png" alt="...">
             </a>
@@ -96,9 +104,9 @@
               <p>Weather app built using the Google Maps, New York Times and OpenWeather APIs.</p>
             </div>
           </div>
-          <!-- Weather app end -->
-          <!-- theWall start -->
-          <div class="col-md-6">
+        </div> <!-- Weather app end -->
+        <div class="col-sm-6"> <!-- theWall start -->
+          <div class="col-sm-11">
             <a href="https://github.com/jklinck/theWall" class="thumbnail" target="theWall" class="thumbnail">
               <img src="./img/theWall.png" alt="...">
             </a>
@@ -107,11 +115,13 @@
               <p>Full stack non-framework PHP application with user authentication and social chat page. </p>
             </div>
           </div>
-          <!-- theWall end -->
+          <div class="col-sm-1">
+          </div>
+        </div> <!-- theWall end -->
       </div>  <!-- end second row -->
   </div> 
   <!-- End portfolio -->
-
+  
   <!-- Contact -->
   <div id="contact" class="container-fluid a">
     <div class="row">
