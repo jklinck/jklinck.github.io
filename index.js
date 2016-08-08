@@ -1,18 +1,11 @@
 $(document).ready(function(){
 	$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-        $(this).collapse('hide');
-    };
+	    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle'){
+	        $(this).collapse('hide');
+	    };
     });
+    var date = new Date();
+    $("#year").html(date.getFullYear());
 });
-
-window.onload=function(){
-	var date = new Date();
-    document.getElementById("year").innerHTML = date.getFullYear();
-}
-
-
-
-
 
 

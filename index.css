@@ -4,43 +4,38 @@ html,body{
 *{
 	font-family: 'Old Standard TT', serif;
 }
+#main,#about,#portfolio,#contact{
+	min-height: 100%;
+	max-height: auto;
+}
 #main{
 	background-image: url("https://sites.google.com/site/jklinckportfolio/_/rsrc/1460183933445/home/laptop-min.jpg");
 	background-size: cover;
 	background-position: center;
 	text-align:center;
 }
-#main h1{
-	margin-top:16%;
-}
-/*.rsz{
-	height: 244px;
-}*/
+	#main h1{
+		margin-top:16%;
+		font-size: 96px;
+	}
+	#main h2{
+		font-size: 35px;
+	}
 #portfolio{
 	background-color: #CCCCCC;
 }
-#main,#about,#portfolio,#contact{
-	min-height: 100%;
-	max-height: auto;
-}
-#main h1{
-	font-size: 96px;
-}
+	#portfolio h1{
+		font-size: 80px;
+		margin-top: 50px;
+	}
 #contact{
 	background-color: #e6e6e6;
 	padding-top: 60px;
 }
-#contact h1{
-	font-size: 80px;
-	margin-top: 10%;
-}
-#portfolio h1{
-	font-size: 80px;
-	margin-top: 50px;
-}
-#main h2{
-	font-size: 35px;
-}
+	#contact h1{
+		font-size: 80px;
+		margin-top: 10%;
+	}
 .footer{
 	background-color:#545151;
 	color:white;
