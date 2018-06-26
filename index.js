@@ -11,7 +11,7 @@ $(document).ready(function(){
     	url:"img/laptop-min.jpg",
     	type: 'GET',
     	headers: {
-    		"Cache-Control":"max-age=604800"
+    		"Cache-Control":"max-age=456"
     	}
     });
 });
